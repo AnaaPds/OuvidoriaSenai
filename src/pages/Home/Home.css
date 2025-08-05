@@ -1,0 +1,81 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden; 
+}
+
+.banner {
+  width: 100%;
+  max-height: 400px; 
+  object-fit: cover; 
+  display: block;
+}
+
+
+.texto-bemvindo {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  color: white;
+  z-index: 2;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.texto-bemvindo h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.texto-bemvindo h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+
+.descricao {
+  width: 35%;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+  align-self: center;
+  border-radius: 9px;
+  padding: 10px 00px;
+}
+
+.botao-horario {
+  display: block;
+  margin: 20px auto;
+  background-color: #e30613;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.icone-social {
+  width: 20px;
+  margin: 0 6px;
+  filter: grayscale(100%);
+}
+
+.info-rodape,
+.contato-rodape {
+  margin-top: 10px;
+}
+
